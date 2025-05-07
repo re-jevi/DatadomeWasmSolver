@@ -1,5 +1,5 @@
 def boring_challenge(n: int, m: int) -> int:
-    return 0x123456 * (n * m + 7109) - m
+    return ((n + 221) * m + m + 5) * 0x123456 - m
 expectedVal = 458138870735950
 param1 = 12000019
 param2 = 32
